@@ -124,13 +124,13 @@ pnpm start
 
 ```
 ai-chatbot/
-├── backend/              # NestJS API
+├── ai-chatbot-backend/              # NestJS API
 │   ├── src/
 │   │   ├── chat/        # Chat endpoints & logic
 │   │   ├── knowledge/   # Knowledge base CRUD
 │   │   └── openai/      # OpenAI service integration
 │   └── .env             # Backend environment config
-├── frontend/             # Next.js application
+├── ai-chatbot-frontend/             # Next.js application
 │   ├── app/             # Next.js App Router
 │   ├── components/      # React components
 │   └── .env.local       # Frontend environment config
